@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Define base colors matching tailwind config */
+  --background: #ffffff; /* Matches theme.extend.colors.background */
+  --foreground: #0a0a0a; /* Matches theme.extend.colors.foreground */
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  /* Font family will be set in layout using Geist font variables */
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

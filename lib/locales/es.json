@@ -1,0 +1,25 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "blog": "Blog",
+    "contact": "Contáctanos"
+  },
+  "homepage": {
+    "title": "Vende Tu Casa Rápido | TurboHomes",
+    "description": "Ayudamos a propietarios con dificultades a vender sus casas rápida y eficientemente en [Área de Ubicación Principal]. Obtén una oferta justa en efectivo hoy.",
+    "hero_title": "¿Necesitas Vender Tu Casa Rápido?",
+    "hero_subtitle": "Nos especializamos en ayudar a propietarios en situaciones difíciles.",
+    "cta_button": "Obtener Mi Oferta en Efectivo"
+  },
+  "contact_page": {
+    "slug": "contacto",
+    "title": "Contáctanos | TurboHomes",
+    "description": "Ponte en contacto con nosotros para una oferta en efectivo sin compromiso por tu propiedad.",
+    "heading": "Información de Contacto"
+  },
+  "footer": {
+    "copyright": "© {year} TurboHomes. Todos los derechos reservados.",
+    "realtor_info": "REALTOR® | DRE: 02156944 | eXp Realty of California Inc"
+  }
+}

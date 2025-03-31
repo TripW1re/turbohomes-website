@@ -1,0 +1,25 @@
+{
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "blog": "Blog",
+    "contact": "Contact Us"
+  },
+  "homepage": {
+    "title": "Sell Your Home Fast | TurboHomes",
+    "description": "We help distressed property owners sell their homes quickly and efficiently in [Primary Location Area]. Get a fair cash offer today.",
+    "hero_title": "Need to Sell Your House Fast?",
+    "hero_subtitle": "We specialize in helping homeowners in difficult situations.",
+    "cta_button": "Get My Cash Offer"
+  },
+  "contact_page": {
+    "slug": "contact",
+    "title": "Contact Us | TurboHomes",
+    "description": "Get in touch with us for a no-obligation cash offer on your property.",
+    "heading": "Contact Information"
+  },
+  "footer": {
+    "copyright": "© {year} TurboHomes. All rights reserved.",
+    "realtor_info": "REALTOR® | DRE: 02156944 | eXp Realty of California Inc"
+  }
+}
