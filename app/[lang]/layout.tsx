@@ -28,6 +28,10 @@ export const metadata: Metadata = {
   // General fallback metadata
   title: "TurboHomes - Sell Your Home Fast", // Updated title
   description: "We help homeowners sell their properties quickly and efficiently.",
+  // Add Google Site Verification
+  verification: {
+    google: "RO2WrmMsL0LPFBdoEl9UF9JYSth-ZDwWyts3mi7URnQ",
+  },
   // TODO: Add metadataBase for absolute URLs in page metadata
   // metadataBase: new URL('https://www.example.com'),
 };
