@@ -4,7 +4,9 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disable Next.js Image Optimization for static export compatibility
   },
-  // trailingSlash: true, // Optional: Consider adding trailing slashes if preferred for static hosts
+  // No i18n configuration here as it's not compatible with static exports
+  // Instead, we're using a root page.tsx that serves English content directly
+  // and language-specific routes under [lang] for other languages
 };
 
 export default nextConfig;
