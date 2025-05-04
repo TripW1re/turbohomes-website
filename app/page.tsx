@@ -2,7 +2,7 @@
 
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { Locale, supportedLocales, defaultLocale } from '@/lib/i18n-config'; // Import Locale from config
+import { Locale, supportedLocales } from '@/lib/i18n-config'; // Import Locale from config
 import { getDictionary } from '@/lib/i18n'; // Import dictionary function
 import Section from '@/components/Section';
 import Button from '@/components/Button';
@@ -11,12 +11,9 @@ import { services } from '@/lib/services';
 import { locations } from '@/lib/locations'; // Import locations data
 import HouseIcon from '@/components/icons/HouseIcon';
 import { MapPin } from 'lucide-react'; // Import MapPin icon
-import LanguageSwitcher from '@/components/LanguageSwitcher';
 
-// Define params interface for the page (no lang param needed here)
-interface HomePageProps {
-  // No params needed for the root page
-}
+// Define empty props type for the page
+type HomePageProps = Record<string, never>;
 
 // Generate dynamic metadata (for English)
 export async function generateMetadata(): Promise<Metadata> {
@@ -156,7 +153,7 @@ export default async function HomePage({}: HomePageProps) { // No params prop ne
            <div className="p-4">
              <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">2</div>
              <h3 className="text-xl font-semibold mb-2">Get Your Offer</h3>
-             <p className="text-muted-foreground">We'll assess your property and provide a fair cash offer.</p>
+             <p className="text-muted-foreground">We&apos;ll assess your property and provide a fair cash offer.</p>
           </div>
            <div className="p-4">
              <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">3</div>
